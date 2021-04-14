@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body{
+    margin: auto !important;
+    background-color: #fafafa;
+}
+
+#img{
+    height: 130px;
+    width: 130px;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+}
+
+p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn{
+    width: 30% !important;
+    margin: auto !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    background-color: #388794;
+    color: #fafafa !important;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.donate{
+    background-color: #FAAE2B;
+}
+
+.donate2{
+    background-color: #BE1E2D;
+}
+
+
+.donate:hover{
+    background-color:#b98326 !important;
+}
+
+.donate2:hover{
+    background-color:#921421 !important;
+}
+
+
+.btn:hover{
+    background-color: #1a565f;
+}
+
+@media (max-width: 990px) {
+ 
+    .btn{
+        width: 80% !important;
+    }
+
+}
